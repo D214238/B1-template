@@ -203,8 +203,15 @@ footer{
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
 
-@media (max-width: 480px) {
+@media (max-width: 480px)
+{
+    .hidden-on-lg{
+    display: block
+    }
 
+    .hidden-on-sm{
+    display: none
+    }
 }
 
 /* 
