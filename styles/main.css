@@ -158,6 +158,25 @@ article h2.open-forever{
   margin: 0 auto;
 }
 
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.product-container span{
+  display: block;
+}
+
+.product-container img{
+  max-width: 100%;
+}
+
+em{
+  font-style: normal;
+  font-weight: bold;
+}
+
 button{
   width: 100%;
   margin-top: 1em;
