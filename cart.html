@@ -18,17 +18,50 @@
   </header>
   <main>
     <div class="wrapper">
-      <article>
-        <h2>Winkelwagentje</h2>
-        <div>
-          <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
-          <!-- 
-            Winkelwagen hier
-          -->
-          
-          <button>Dit is correct, verder naar betaling</button>
-        </div>
-      </article>
+      <h2>Winkelwagentje</h2>
+      <div>
+        <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
+        
+        <table id="product-table">
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col">Prijs (enkel)</th>
+              <th scope="col" class="slim">Aantal</th>
+              <th scope="col">Prijs (totaal)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Entreekaartje Kind t/m 3 jaar</td>
+              <td>&euro; 0</td>
+              <td>1</td>
+              <td>&euro; 0</td>
+            </tr>
+            <tr>
+              <td>Entreekaartje Regulier</td>
+              <td>&euro; 24,95</td>
+              <td>2</td>
+              <td>&euro; 49,90</td>
+            </tr>
+            <tr>
+              <td>Entreekaartje Senior</td>
+              <td>&euro; 14,95</td>
+              <td>1</td>
+              <td>&euro; 14,95</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="col" colspan="2"></th>
+              <th scope="col">Totaalsom (incl. btw)</th>
+              <th scope="col">&euro; 64,85</th>
+            </tr>
+          </tfoot>
+        </table>
+        
+        <button>Dit is correct, verder naar betaling</button>
+      </div>
     </div>
   </main>
   <footer>
